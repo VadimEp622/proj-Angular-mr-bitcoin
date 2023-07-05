@@ -1,0 +1,10 @@
+.main-app {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+
+    & main {
+        background-color: #176b87;
+        // display: block;
+    }
+}

@@ -1,0 +1,30 @@
+.contact-details-page {
+    padding-block:30px;
+    display: block;
+    width: fit-content;
+    margin-inline: auto;
+    & img {
+        display: block;
+    }
+
+    & .info {
+        padding-block: 20px;
+
+        & p {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 20px;
+            align-items: center;
+
+            & span {
+                font-weight: 800;
+            }
+        }
+    }
+
+    & .buttons {
+        padding-block: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

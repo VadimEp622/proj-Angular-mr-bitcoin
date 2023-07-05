@@ -1,0 +1,15 @@
+.footer-container {
+    background-color: #001c30;
+    color: rgb(220, 220, 220);
+
+    & p {
+        text-align: center;
+        font-size: 1.4em; 
+        position: relative;
+        & span{
+            font-size: 0.7em;
+            position: absolute;
+            top: 0;
+        }
+    }
+}

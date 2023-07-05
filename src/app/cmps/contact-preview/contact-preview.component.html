@@ -1,0 +1,12 @@
+<section (click)="onContactDetails($event)" class="contact-preview">
+    <section class="img-container">
+        <img src="https://robohash.org/{{ contact._id }}?set=set1" height="36" alt="contact" />
+    </section>
+    <section class="info">
+        <p>Name: {{contact.name}}</p>
+        <p>Phone: {{contact.phone}}</p>
+    </section>
+    <section class="btn-container">
+        <button (click)="onRemove($event)">X</button>
+    </section>
+</section>

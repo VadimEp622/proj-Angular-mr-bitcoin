@@ -1,0 +1,6 @@
+<!-- <section *ngIf="msg" class="user-msg"> -->
+<!-- <section *ngIf="userMsg$ | async as msg" class="user-msg"> -->
+<section *ngIf="(userMsg$ | async) as msg" class="user-msg">
+    <!-- <p>user-msg works!</p> -->
+    <p>{{msg}}</p>
+</section>

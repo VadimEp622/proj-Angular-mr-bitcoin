@@ -1,0 +1,18 @@
+.home-page{
+
+    & .greeting{
+
+        & p{
+            text-align: center;
+
+            & span{
+                font-size: 1.5em;
+                font-weight: 600;
+            }
+        }
+    }
+
+    & h1{
+        text-align: center;
+    }
+}
